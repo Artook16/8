@@ -1,7 +1,6 @@
 import tkinter as tk
 from tkinter import ttk, messagebox, filedialog
 import math
-import os
 
 class Hexagon:
     def __init__(self, center_x=200, center_y=200, size=50, color="blue", name="Шестиугольник"):
@@ -382,3 +381,4 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = HexagonApp(root)
     root.mainloop()
+
